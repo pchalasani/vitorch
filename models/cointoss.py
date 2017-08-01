@@ -87,6 +87,7 @@ def step_regularity(autocorr_peak_values):
     Lateral axis sign and interpretation are the same as the vertical axis.
 
     This is a famous equation :math:`e = mc^2`, and these are trivial:
+
     .. math::
     (a + b)^2 = a^2 + 2ab + b^2
     (a - b)^2 = a^2 - 2ab + b^2
