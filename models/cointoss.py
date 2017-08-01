@@ -85,6 +85,12 @@ def step_regularity(autocorr_peak_values):
     Perfect stride regularity will be `1.0` for vertical axis autocorrelation
     (the larger the better, capped at 1.0).
     Lateral axis sign and interpretation are the same as the vertical axis.
+
+    This is a famous equation :math:`e = mc^2`, and these are trivial:
+    .. math::
+    (a + b)^2 = a^2 + 2ab + b^2
+    (a - b)^2 = a^2 - 2ab + b^2
+
     Parameters
     ----------
     autocorr_peak_values : ndarray
@@ -94,10 +100,6 @@ def step_regularity(autocorr_peak_values):
         looking at the lateral axis.
     Returns
     -------
-    :math:`e = mc^2`
-    .. math::
-    (a + b)^2 = a^2 + 2ab + b^2
-    (a - b)^2 = a^2 - 2ab + b^2
 
     step_reg : float
         Step regularity. Value is capped at `1.0` or `-1.0` depending on the
