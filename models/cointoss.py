@@ -88,8 +88,8 @@ def step_regularity(autocorr_peak_values):
 
     This is a famous equation :math:`e = mc^2`, and these are trivial:
 
-    ..math::
-    
+    .. math::
+
     (a + b)^2 &= a^2 + 2ab + b^2 \\
     (a - b)^2 &= a^2 - 2ab + b^2
 
