@@ -94,6 +94,11 @@ def step_regularity(autocorr_peak_values):
         looking at the lateral axis.
     Returns
     -------
+    :math:`e = mc^2`
+    .. math::
+    (a + b)^2 = a^2 + 2ab + b^2
+    (a - b)^2 = a^2 - 2ab + b^2
+
     step_reg : float
         Step regularity. Value is capped at `1.0` or `-1.0` depending on the
         axis of interest.
